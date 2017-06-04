@@ -15,4 +15,3 @@
 ;overlaying
 (define firstoverlay (overlay vert-white-rect background))
 (overlay hori-white-rect firstoverlay)
-
