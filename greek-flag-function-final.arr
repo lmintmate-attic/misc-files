@@ -1,14 +1,14 @@
 include image
 fun greek-flag(unit :: Number) -> Image:
-bg-width = unit * 3
-bg-height = unit * 2
-hori-rect-width = bg-width
-hori-rect-height = unit / 2
-vert-rect-width = unit / 2
-vert-rect-height = bg-height
-vert-white-rect = rectangle(vert-rect-width,vert-rect-height,"solid", "white")
-hori-white-rect = rectangle(hori-rect-width, hori-rect-height, "solid", "white")
-blue-rect = rectangle(bg-width, bg-height, "solid", "blue")
+bg-width :: Number = unit * 3
+bg-height :: Number = unit * 2
+hori-rect-width :: Number = bg-width
+hori-rect-height :: Number = unit / 2
+vert-rect-width :: Number = unit / 2
+vert-rect-height :: Number = bg-height
+vert-white-rect :: Image = rectangle(vert-rect-width,vert-rect-height,"solid", "white")
+hori-white-rect :: Image = rectangle(hori-rect-width, hori-rect-height, "solid", "white")
+blue-rect :: Image = rectangle(bg-width, bg-height, "solid", "blue")
 firstoverlay = overlay(vert-white-rect, blue-rect)
 overlay(hori-white-rect, firstoverlay)
 end
