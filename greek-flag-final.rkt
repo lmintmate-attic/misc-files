@@ -13,5 +13,4 @@
 (define hori-white-rect (rectangle hori-rect-width hori-rect-height "solid" "white"))
 (define vert-white-rect(rectangle vert-rect-width vert-rect-height "solid" "white"))
 ;overlaying
-(define firstoverlay (overlay vert-white-rect background))
-(overlay hori-white-rect firstoverlay)
+(overlay vert-white-rect hori-white-rect background)
