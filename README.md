@@ -8,3 +8,4 @@ Miscellaneous files of my coding endeavours.
 * greek-flag-final.rkt: The [Racket](http://racket-lang.org/) version of greek-flag-final.arr.
 * car-drawing.rkt: Drawing of a simple car in [Racket](http://racket-lang.org/), from the Part I, exercise 5 of [the book "How to Design Programs"](http://www.ccs.neu.edu/home/matthias/HtDP2e/index.html).
 * tree-drawing.rkt: Drawing of a simple tree in [Racket](http://racket-lang.org/), from the Part I, exercise 5 of [the book "How to Design Programs"](http://www.ccs.neu.edu/home/matthias/HtDP2e/index.html).
+* small-banner.rkt: A small banner with text in [Racket](http://racket-lang.org/), using the text-font property.
