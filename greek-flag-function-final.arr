@@ -1,5 +1,6 @@
 include image
 fun greek-flag(unit :: Number) -> Image:
+doc: "Generate the old flag of Greece depending on a given unit number."
 bg-width :: Number = unit * 3
 bg-height :: Number = unit * 2
 hori-rect-width :: Number = bg-width
