@@ -1,5 +1,5 @@
 include image
-fun greek-flag(unit):
+fun greek-flag(unit :: Number) -> Image:
 bg-width = unit * 3
 bg-height = unit * 2
 hori-rect-width = bg-width
