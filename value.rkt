@@ -1,4 +1,5 @@
 #lang racket
+; (require 2htdp/image)
 ; (define shape (rectangle 20 10 "outline" "black"))
 ; defining the value variable - can be modified at will
 (define value "hello")
