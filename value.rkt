@@ -16,6 +16,8 @@
 ; next what happens if value isn't a real number either, which leaves it as being either true or false:
 ; first what happens if it's false -the number 20 is printed
             (if (false? value) "20" 
-; the value isn't false either, it is thus true - thus the number 10 is printed
-"10")
+;at this point, the case where someone might put a weird number such as 0.0+2.23606797749979i in the value definition must also be accounted, so that the program won't print an inapropriate answer
+(if (complex? value) "This is too complex." 
+    ; the value isn't false nor complex either, it is thus true - thus the number 10 is printed
+    "10"))
         )))
