@@ -8,5 +8,5 @@
 (define shape (rectangle 50 10 "outline" "black"))
 ;dimensions variable: square, tall or wide
 (define dimensions
-(if (= (image-height shape) (image-width shape)) "square"
-(if (> (image-height shape) (image-width shape)) "tall" "wide")))
+(if (= (image-height shape) (image-width shape)) (printf "square")
+(if (> (image-height shape) (image-width shape)) (printf "tall") (printf "wide"))))
