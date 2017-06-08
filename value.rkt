@@ -1,7 +1,7 @@
 #lang racket
 ; (define shape (rectangle 20 10 "outline" "black"))
 ; defining the value variable - can be modified at will
-(define value #false)
+(define value "hello")
 ; long if string. part 1: if value is a string
 (if (string? value) (string-length value) 
 ; part 2: if value isn't a string, but an image
