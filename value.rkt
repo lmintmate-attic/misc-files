@@ -12,12 +12,12 @@
 ; if value is indeed a number, if it is positive it gets decremented.
  (if (positive? value) (- value 1)
 ; the message that gets printed when the number isn't positive, but zero or negative
-        "The number isn't positive.")
+        (printf "The number isn't positive."))
 ; next what happens if value isn't a real number either, which leaves it as being either true or false:
 ; first what happens if it's false -the number 20 is printed
-            (if (false? value) "20" 
+            (if (false? value) 20 
 ;at this point, the case where someone might put a weird number such as 0.0+2.23606797749979i in the value definition must also be accounted, so that the program won't print an inapropriate answer
-(if (complex? value) "This is too complex." 
+(if (complex? value) (printf "This is too complex.") 
     ; the value isn't false nor complex either, it is thus true - thus the number 10 is printed
-    "10"))
+   10))
         )))
