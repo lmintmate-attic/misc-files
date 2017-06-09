@@ -5,5 +5,8 @@
 (define friday #true)
 ; introducing the decision variable. It examines whether it isn't sunny or whether it is Friday, and decides accordingly whether to go to the mall or not.
 (define decision
-(if (or (not sunny) friday) (printf "It's a good day to go to the mall.") (printf "It's not a good day to go to the mall.")))
+  (if (and (boolean? sunny) (boolean? friday))
+(if (or (not sunny) friday) (printf "It's a good day to go to the mall.") (printf "It's not a good day to go to the mall."))
+      (printf "Please write #true or #false in the variables fields.")
+      ))
 ; execute by writing decision in the interactions panel(the REPL).
