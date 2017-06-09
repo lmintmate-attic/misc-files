@@ -21,6 +21,7 @@ Miscellaneous files of my coding endeavours.
 * hours-to-wages.rkt: The [Racket](http://racket-lang.org/) version of the above program. Executed by invoking the compute variable, optionally after modifying the hours, rate, and overtime-threshold variables.
 * hours-to-wages.scm: The Scheme version of the above program. Execute as above.
 * hours-to-wages-mark2.rkt: An extensive rewrite of hours-ro-wages.rkt, consolidating the if statements that verified whether the numbers were above zero, and adding a way to flag any non-numeric input. Executed by invoking the compute variable, optionally after modifying the hours, rate, and overtime-threshold variables.
+* hours-to-wages-mark2-function.rkt: Similar to above, but now as a function, which also changes its way of execution. Can be executed by writing (compute rate hours overtime-threshold), substituting as necessary e.g. (compute 10 45 40).
 * switching-computer.arr: A small [Pyret](http://www.pyret.org/) program that says to switch on the computer if there are new messages in the inbox. Based on any real-life case where one might want to do that. Can be executed by writing switching-computer(boolean value of new-messages) e.g. switching-computer(true).
 * switching-computer.rkt: The [Racket](http://racket-lang.org/) version of the above program. Can be executed simply by typing switching-computer, optionally after setting the new-messages boolean variable as desired.
 * switching-computer.scm: The Scheme version of the above program. Can be executed the same way as above.
