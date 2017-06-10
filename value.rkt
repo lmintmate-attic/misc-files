@@ -1,12 +1,12 @@
 #lang racket
 ; (require 2htdp/image)
-; (define shape (rectangle 20 10 "outline" "black"))
+; (define value (rectangle 20 10 "outline" "black"))
 ; defining the value variable - can be modified at will
 (define value "hello")
 ; long if string. part 1: if value is a string
 (if (string? value) (string-length value) 
 ; part 2: if value isn't a string, but an image
-    (if (image? value) (* (image-width shape) (image-height shape))
+    (if (image? value) (* (image-width value) (image-height value))
 ; part 3: if value is neither of those, but rather a real number(which excludes true and false)
         (if (real? value)
 ; if value is indeed a number, if it is positive it gets decremented.
