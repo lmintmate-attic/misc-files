@@ -14,6 +14,7 @@ Miscellaneous files of my coding endeavours. Separated by exercise sets.
 * car-drawing.rkt: Drawing of a simple car in [Racket](http://racket-lang.org/), from the Part I, exercise 5 of [the book "How to Design Programs"](http://www.ccs.neu.edu/home/matthias/HtDP2e/index.html).
 * tree-drawing.rkt: Drawing of a simple tree in [Racket](http://racket-lang.org/), from the Part I, exercise 5 of [the book "How to Design Programs"](http://www.ccs.neu.edu/home/matthias/HtDP2e/index.html).
 * small-banner.rkt: A small banner with text in [Racket](http://racket-lang.org/), using the text-font property.
+* happybirthday.py: A small Python 3 program that asks for the name of a person and prints a happy birthday wish. Based on section 1.11.2 of [Loyola University's Python 3 hands-on tutorial](http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/index.html).
 
 ### Traffic lights: ###
 
