@@ -1,6 +1,6 @@
 #lang racket
 
-(define (compute) ;rate hours overtime-threshold)
+(define (compute)
 
 
 (printf "Input a number for the rate: ")
