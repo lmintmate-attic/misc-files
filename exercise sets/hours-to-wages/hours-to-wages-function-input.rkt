@@ -2,7 +2,6 @@
 
 (define (compute)
 
-
 (printf "Input a number for the rate: ")
 (define rate (read))
 (unless (and (number? rate) (>= rate 0)) (error "Please use a number above zero for the rate."))
