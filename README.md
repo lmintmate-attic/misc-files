@@ -22,6 +22,7 @@ Miscellaneous files of my coding endeavours. Separated by exercise sets.
 * traffic-lights.scm: The Scheme version of the above program. Can be executed simply by invoking the next-color variable (optionally, after modifying the current-color variable).
 * traffic-lights.arr: The [Pyret](http://www.pyret.org/) version of the above program. Can be executed by writing next-color("name of current color") e.g. next-color("red").
 * traffic-lights-function.rkt: traffic-lights.rkt as a function. Can be executed by writing (next-color name of current color) e.g. (next-color "green").
+* traffic-lights-function.scm: The Scheme version of the above program. Execute as above.
 
 ### Mall: ###
 
