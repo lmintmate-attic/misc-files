@@ -44,7 +44,7 @@ Miscellaneous files of my coding endeavours. Separated by exercise sets.
 * hours-to-wages.lisp: The Common Lisp version of the above program. Execute as above.
 * hours-to-wages-mark2.rkt: An extensive rewrite of hours-to-wages.rkt, consolidating the if statements that verified whether the numbers were above zero, and adding a way to flag any non-numeric input. Executed by invoking the compute variable, optionally after modifying the hours, rate, and overtime-threshold variables.
 * hours-to-wages-mark2.scm: The Scheme version of the above program. Execute as above.
-* hours-to-wages-mark2-function.rkt: Similar to above, but now as a function, which also changes its way of execution. Can be executed by writing (compute rate hours overtime-threshold), substituting as necessary e.g. (compute 10 45 40).
+* hours-to-wages-mark2-function.rkt: Similar to hours-to-wages-mark2.rkt, but now as a function, which also changes its way of execution. Can be executed by writing (compute rate hours overtime-threshold), substituting as necessary e.g. (compute 10 45 40).
 * hours-to-wages-mark2-function.scm: The Scheme version of the above program. Execute as above.
 * hours-to-wages-input.rkt: Similar to hours-to-wages.rkt, but the program now offers input fields for the numbers. Execution: after the numbers have been inputted, type compute in the REPL.
 * hours-to-wages-function-input.rkt: As above, only as a function. Execute by writing (compute) -with the parentheses- in the REPL.
