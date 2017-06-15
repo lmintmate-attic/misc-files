@@ -4,4 +4,4 @@
 (define friday #t)
 ; introducing the decision variable. It examines whether it isn't sunny or whether it is Friday, and decides accordingly whether to go to the mall or not.
 (define decision
-(if (or (not sunny) friday) (print "It's a good day to go to the mall.") (print "It's not a good day to go to the mall.")))
+(if (or (not sunny) friday) (display "It's a good day to go to the mall.") (display "It's not a good day to go to the mall.")))

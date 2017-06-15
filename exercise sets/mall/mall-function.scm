@@ -2,7 +2,7 @@
 ; introducing the decision variable. It examines whether it isn't sunny or whether it is Friday, and decides accordingly whether to go to the mall or not, depending on the state of the variables sunny and friday.
 (define (decision sunny friday)
   (if (and (boolean? sunny) (boolean? friday))
-(if (or (not sunny) friday) (print "It's a good day to go to the mall.") (print "It's not a good day to go to the mall."))
-      (print "Please write #t or #f in the variables fields.")
+(if (or (not sunny) friday) (display "It's a good day to go to the mall.") (print "It's not a good day to go to the mall."))
+      (display "Please write #t or #f in the variables fields.")
       ))
 ; execute by writing (decision sunny friday) in the interactions panel(the REPL) e.g. (decision #f #t).
