@@ -30,6 +30,7 @@ Miscellaneous files of my coding endeavours. Separated by exercise sets.
 * mall.scm: The Scheme version of the above small program. Can be executed simply by invoking the decision variable (optionally, after modifying the sunny and friday variables).
 * mall.lisp: The Common Lisp version of the above program. Executed as above, difference being that "t" is true and "nil" is false.
 * mall-function.rkt: mall.rkt as a function. Execute by writing (decision state of sunny boolean state of friday boolean) e.g. (decision #false #true).
+* mall-function.scm: The Scheme version of the above. Execute by writing (decision state of sunny boolean state of friday boolean) e.g. (decision #f #t).
 
 ### Shapes: ###
 
@@ -56,6 +57,7 @@ Miscellaneous files of my coding endeavours. Separated by exercise sets.
 * switching-computer.scm: The Scheme version of the above program. Can be executed the same way as above.
 * switching-computer.lisp: The Common Lisp version of the above program. Can be executed as above, with the difference that "t" is true and "nil" is false.
 * switching-computer-function.rkt: switching-computer.rkt as a function. Can be executed by writing (switching-computer new-messages boolean) e.g. (switching-computer #true).
+* switching-computer-function.scm: The Scheme version of the above. Can be executed by writing (switching-computer new-messages boolean) e.g. (switching-computer #t).
 
 ### Value: ###
 
