@@ -31,6 +31,7 @@ Miscellaneous files of my coding endeavours. Separated by exercise sets.
 * mall.rkt: A small [Racket](http://racket-lang.org/) program, inspired by exercise 7 of the Part I of [the book "How to Design Programs"](http://www.ccs.neu.edu/home/matthias/HtDP2e/index.html). It implements an if statement for the following hypothetical scenario: "Suppose you want to decide whether today is an appropriate day to go to the mall. You go to the mall if it is either not sunny or if today is Friday (because that is when stores post new sales items)."(ibid). Can be executed simply by invoking the decision variable (optionally, after modifying the sunny and friday variables).
 * mall.arr: The [Pyret](http://www.pyret.org/) version of the above small program. Can be executed by writing decision(boolean value of sunny, boolean value of friday) e.g. decision(false, true).
 * mall.scm: The Scheme version of the above small program. Can be executed simply by invoking the decision variable (optionally, after modifying the sunny and friday variables).
+* mall.clj: The Clojure version of the above program.
 * mall.lisp: The Common Lisp version of the above program. Executed as above, difference being that "t" is true and "nil" is false.
 * mall-function.rkt: mall.rkt as a function. Execute by writing (decision state of sunny boolean state of friday boolean) e.g. (decision #false #true).
 * mall-function.scm: The Scheme version of the above. Execute by writing (decision state of sunny boolean state of friday boolean) e.g. (decision #f #t).
